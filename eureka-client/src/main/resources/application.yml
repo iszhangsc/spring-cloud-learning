@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    # \u8FD9\u4E2A\u5F88\u91CD\u8981\uFF0C\u5404\u4E2A\u670D\u52A1\u4E4B\u95F4\u8C03\u7528\u90FD\u662F\u6839\u636E\u8FD9\u4E2A name
+    # 这个很重要，各个服务之间调用都是根据这个 name
     name: eureka-client
 
 eureka:

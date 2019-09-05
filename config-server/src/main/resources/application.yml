@@ -4,18 +4,18 @@ server:
 spring:
   application:
     name: config-server
-
+  # config配置
   cloud:
     config:
       server:
         git:
-          # \u914D\u7F6Egit\u4ED3\u5E93\u5730\u5740
+          # 配置git仓库地址
           uri: https://github.com/iszhangsc/SpringcloudConfig
-          # \u914D\u7F6E\u4ED3\u5E93\u8DEF\u5F84
+          # 配置仓库路径
           search-paths: respo
-          # \u516C\u5F00\u4ED3\u5E93\u4E0D\u9700\u8981\u586B\u5199\u8D26\u53F7\u5BC6\u7801
+          # 公开仓库不需要填写账号密码
           username:
           password:
-      # \u4ED3\u5E93\u7684\u5206\u652F
+      # 仓库的分支
       label: master
 

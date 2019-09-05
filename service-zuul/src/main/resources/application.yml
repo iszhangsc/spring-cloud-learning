@@ -10,9 +10,9 @@ eureka:
     service-url:
       defaultZone: http://localhost:8761/eureka/
 
-# zuul\u914D\u7F6E
+# zuul配置
 zuul:
-  ## \u52A8\u6001\u8DEF\u7531
+  ## 动态路由
   routes:
     api-a:
       path: /api-a/**

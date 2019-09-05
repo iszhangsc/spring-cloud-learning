@@ -5,7 +5,7 @@ spring:
   application:
     name: service-feign
 
-# D\u7248\u672C\u4E4B\u540E\u7684feign\u9ED8\u8BA4\u6CA1\u6709\u5F00\u542F \u65AD\u8DEF\u5668
+# D版本之后的feign默认没有开启 断路器
 feign.hystrix.enabled: true
 
 eureka:
